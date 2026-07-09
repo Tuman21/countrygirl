@@ -32,10 +32,11 @@ export default function Footer() {
                 className="rounded-full flex items-center justify-center flex-shrink-0"
                 style={{ width: 40, height: 40, backgroundColor: '#C2783A' }}
               >
-                <svg width="22" height="22" viewBox="0 0 26 26" fill="none">
-                  <circle cx="13" cy="13" r="10" stroke="white" strokeWidth="1.5" />
-                  <path d="M8 13 Q13 7 18 13 Q13 19 8 13Z" fill="white" opacity="0.85" />
-                </svg>
+                <img
+          src="https://6a4edfe2ae4883bf378bd341.imgix.net/logo/Image.png"
+          alt="Country Girl Logo"
+          className="h-full w-full rounded-full object-cover"
+       />
               </div>
               <span
                 style={{
@@ -75,7 +76,7 @@ export default function Footer() {
               Follow Along
             </span>
             <a
-              href="https://instagram.com/countrygirlphotography"
+              href="https://www.instagram.com/kountrygirlphotography?igsh=aWczNXUwb3AycXhx"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 transition-opacity hover:opacity-80"
